@@ -1,0 +1,21 @@
+https://www.boost.org/
+https://github.com/ReactiveX/RxCpp
+https://github.com/catchorg/Catch2
+
+Need Catch.hpp in https://github.com/catchorg/Catch2/releases/download/v2.13.6/catch.hpp or https://github.com/catchorg/Catch2
+
+# to work with C++17   with cmake   -> $ set(CMAKE_CXX_STANDARD 17)
+# to complile cpp using clang++  -> $ clang++ -std=c++17 -Wall filename.cpp
+
+
+### Map, Filter and Reduce 
+- Map , Filter and Reduce don't exist in C++, But Alternative Does,
+- std::transform replaces Map
+- std::copy_if replaces Filter
+- std::accumulate replaces Reduce
+
+what is lambda function?
+  - Lambda comes from the Lambda Calculus and refers to anonymous functions in programming.
+
+Why is this cool? 
+  - It allows you to write quick throw away functions without naming them. It also provides a nice way to write closures.
