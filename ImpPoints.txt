@@ -45,3 +45,5 @@ lambda function :-
 - they are unmaed function object
 - which they Create closure over calling scope
 - Use the Keyword mutable to make changes to closure
+
+- Any time we want to modify a value that's in the closure, We have to say mutable.

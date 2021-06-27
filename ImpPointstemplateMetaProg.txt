@@ -1,0 +1,7 @@
+C++ Template MetaProgramming 
+- It's a form of C++ programming
+- Template Meta Programming (TMP) is turing complete functional programming language built-in to C++.
+- TMP variables are always immutable 
+- TMP doesn't have loops , so we use recursion.
+-TMP doesn't have branching , So we use specialization.
+
