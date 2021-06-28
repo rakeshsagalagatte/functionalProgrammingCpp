@@ -5,3 +5,18 @@ C++ Template MetaProgramming
 - TMP doesn't have loops , so we use recursion.
 -TMP doesn't have branching , So we use specialization.
 
+######################################################
+Loki : - It is one of the oldest C++ MetaProgramming library
+Boost.MPL - It is header only C++03 base library. general purpose Template MetaProgramming framework
+            of compile time algorithms , containers , sequences and metafunctions.
+Boost.Fusion - It's a library for working with heterogeneous collection of data ,
+                commonly refered to as tuples
+Boost.Hana - calls itself your standard library for MetaProgramming.
+            It's header only and provides a super set of the features in Boost.MPL and Boost.Fusion
+Boost.HOF (Higher Order Functions) - is a recent addition to the Boost Family.
+        like Hana, it's a header only C++11 and C++14 library, provides utility functions and functions objects.
+#######################################################
+Boost.Hana : It's recently addition to Boost library.
+- Superset of the Boost.MPL and Boost.Fusion libraries
+- provides  library support for tuples , also known as heterogeneous collections.
+- It also has large number of functional methods 
