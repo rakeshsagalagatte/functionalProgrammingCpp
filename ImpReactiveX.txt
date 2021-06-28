@@ -1,0 +1,18 @@
+- Combines the best parts: of the Observer and Iterator patterns and Functional programming
+- It abstracts away dirty details and leaves fewer lines of more powerful code.
+- ReactiveX is important and available for all major programming languages including C++.
+- Used by many top tech companies.
+- It's running in frontend , backend , mobile and desktop apps . 
+
+The 4 main components of ReactiveX are :
+1. Observables - which are composable streams of events.
+2. Observers - are those interested in those events.
+3. Operators - which are functions that manipulate Observables.
+4. Schedulers - that execute actions associated with Operators. 
+
+##########################################################################
+RxCpp Library :
+- Header only, C++ implementation of ReactiveX.
+- Can convert from STL containers to Observables.
+- It supports either chaining or a pipe interface 
+git clone https://github.com/ReactiveX/RxCpp.git
